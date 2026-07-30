@@ -1,0 +1,40 @@
+import type { JobSeeker } from "@/features/job-seekers/types/job-seeker";
+
+export const jobSeekers: JobSeeker[] = [
+  {
+    id: "JS-1001",
+    name: "Alex Rivera",
+    email: "alex.rivera@example.com",
+    headline: "Senior Software Engineer",
+    currentPosition: "Lead Dev @ TechCorp",
+    salary: 165_000,
+    location: "San Francisco, CA",
+    status: "Active",
+    verified: true,
+    avatar: "/assets/candidate-alex.png",
+  },
+  {
+    id: "JS-1002",
+    name: "Sarah Jenkins",
+    email: "sarah.j@designco.com",
+    headline: "Senior Product Designer",
+    currentPosition: "UI/UX Lead @ Studio-X",
+    salary: 140_000,
+    location: "Remote (NYC)",
+    status: "Open to Work",
+    verified: true,
+    avatar: "/assets/candidate-sarah.png",
+  },
+  {
+    id: "JS-1003",
+    name: "David Chen",
+    email: "chen.d@researchlab.io",
+    headline: "Data Scientist",
+    currentPosition: "AI Engineer @ DeepData",
+    salary: 175_000,
+    location: "Seattle, WA",
+    status: "Placed",
+    verified: true,
+    avatar: "/assets/candidate-david.png",
+  },
+];
